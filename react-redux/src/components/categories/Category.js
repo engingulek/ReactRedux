@@ -85,8 +85,11 @@ class Cart extends Component {
 
 function mapStatefromProps(state) {
   return {
+
     categories: state.categoryListReducer,
+
     currentCategory: state.changeCategoryReducer,
+    
     cart:state.cartReducer
   };
 }
