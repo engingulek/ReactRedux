@@ -8,6 +8,7 @@ import * as cartActions from "../../redux/actions/cartActionsTypes"
 
  class Product extends Component {
 componentDidMount()
+
 {
   this.props.actions.getProduct()
 }
